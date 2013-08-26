@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C018F8161792BA3900920757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018F8151792BA3900920757 /* UIKit.framework */; };
+		C018F8181792BA3900920757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018F8171792BA3900920757 /* Foundation.framework */; };
+		C018F81A1792BA3900920757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C018F8191792BA3900920757 /* CoreGraphics.framework */; };
+		C018F8201792BA3900920757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C018F81E1792BA3900920757 /* InfoPlist.strings */; };
+		C018F8221792BA3900920757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8211792BA3900920757 /* main.m */; };
+		C018F8261792BA3900920757 /* iEmpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8251792BA3900920757 /* iEmpAppDelegate.m */; };
+		C018F8281792BA3900920757 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C018F8271792BA3900920757 /* Default.png */; };
+		C018F82A1792BA3900920757 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C018F8291792BA3900920757 /* Default@2x.png */; };
+		C018F82C1792BA3A00920757 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C018F82B1792BA3A00920757 /* Default-568h@2x.png */; };
+		C018F82F1792BA3A00920757 /* iEmpMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F82E1792BA3A00920757 /* iEmpMasterViewController.m */; };
+		C018F8321792BA3A00920757 /* iEmpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8311792BA3A00920757 /* iEmpDetailViewController.m */; };
+		C018F8351792BA3A00920757 /* iEmpMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C018F8331792BA3A00920757 /* iEmpMasterViewController.xib */; };
+		C018F8381792BA3A00920757 /* iEmpDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C018F8361792BA3A00920757 /* iEmpDetailViewController.xib */; };
+		C018F84A1792D65100920757 /* HotelDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F83F1792D65100920757 /* HotelDirectory.m */; };
+		C018F84B1792D65100920757 /* iAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8411792D65100920757 /* iAddress.m */; };
+		C018F84C1792D65100920757 /* iCity.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8431792D65100920757 /* iCity.m */; };
+		C018F84D1792D65100920757 /* iHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8451792D65100920757 /* iHotel.m */; };
+		C018F84E1792D65100920757 /* iRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8471792D65100920757 /* iRoom.m */; };
+		C018F84F1792D65100920757 /* NSString+ReadConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = C018F8491792D65100920757 /* NSString+ReadConsole.m */; };
+		C01A0134179468C200B11D11 /* iAddHotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01A0132179468C200B11D11 /* iAddHotelViewController.m */; };
+		C01A0135179468C200B11D11 /* iAddHotelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01A0133179468C200B11D11 /* iAddHotelViewController.xib */; };
+		C024E3431799B7B5006BF901 /* iAddRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C024E3411799B7B5006BF901 /* iAddRoomViewController.m */; };
+		C024E3441799B7B5006BF901 /* iAddRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C024E3421799B7B5006BF901 /* iAddRoomViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C018F8121792BA3900920757 /* iHotelManagementSystem_NC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHotelManagementSystem_NC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C018F8151792BA3900920757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C018F8171792BA3900920757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C018F8191792BA3900920757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C018F81D1792BA3900920757 /* iHotelManagementSystem_NC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHotelManagementSystem_NC-Info.plist"; sourceTree = "<group>"; };
+		C018F81F1792BA3900920757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C018F8211792BA3900920757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C018F8231792BA3900920757 /* iHotelManagementSystem_NC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHotelManagementSystem_NC-Prefix.pch"; sourceTree = "<group>"; };
+		C018F8241792BA3900920757 /* iEmpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iEmpAppDelegate.h; sourceTree = "<group>"; };
+		C018F8251792BA3900920757 /* iEmpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEmpAppDelegate.m; sourceTree = "<group>"; };
+		C018F8271792BA3900920757 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C018F8291792BA3900920757 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C018F82B1792BA3A00920757 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C018F82D1792BA3A00920757 /* iEmpMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iEmpMasterViewController.h; sourceTree = "<group>"; };
+		C018F82E1792BA3A00920757 /* iEmpMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEmpMasterViewController.m; sourceTree = "<group>"; };
+		C018F8301792BA3A00920757 /* iEmpDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iEmpDetailViewController.h; sourceTree = "<group>"; };
+		C018F8311792BA3A00920757 /* iEmpDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iEmpDetailViewController.m; sourceTree = "<group>"; };
+		C018F8341792BA3A00920757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iEmpMasterViewController.xib; sourceTree = "<group>"; };
+		C018F8371792BA3A00920757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iEmpDetailViewController.xib; sourceTree = "<group>"; };
+		C018F83E1792D65100920757 /* HotelDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDirectory.h; sourceTree = "<group>"; };
+		C018F83F1792D65100920757 /* HotelDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDirectory.m; sourceTree = "<group>"; };
+		C018F8401792D65100920757 /* iAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAddress.h; sourceTree = "<group>"; };
+		C018F8411792D65100920757 /* iAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAddress.m; sourceTree = "<group>"; };
+		C018F8421792D65100920757 /* iCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCity.h; sourceTree = "<group>"; };
+		C018F8431792D65100920757 /* iCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCity.m; sourceTree = "<group>"; };
+		C018F8441792D65100920757 /* iHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHotel.h; sourceTree = "<group>"; };
+		C018F8451792D65100920757 /* iHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHotel.m; sourceTree = "<group>"; };
+		C018F8461792D65100920757 /* iRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRoom.h; sourceTree = "<group>"; };
+		C018F8471792D65100920757 /* iRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRoom.m; sourceTree = "<group>"; };
+		C018F8481792D65100920757 /* NSString+ReadConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReadConsole.h"; sourceTree = "<group>"; };
+		C018F8491792D65100920757 /* NSString+ReadConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReadConsole.m"; sourceTree = "<group>"; };
+		C01A0131179468C200B11D11 /* iAddHotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAddHotelViewController.h; sourceTree = "<group>"; };
+		C01A0132179468C200B11D11 /* iAddHotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAddHotelViewController.m; sourceTree = "<group>"; };
+		C01A0133179468C200B11D11 /* iAddHotelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iAddHotelViewController.xib; sourceTree = "<group>"; };
+		C024E3401799B7B5006BF901 /* iAddRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAddRoomViewController.h; sourceTree = "<group>"; };
+		C024E3411799B7B5006BF901 /* iAddRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAddRoomViewController.m; sourceTree = "<group>"; };
+		C024E3421799B7B5006BF901 /* iAddRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iAddRoomViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C018F80F1792BA3900920757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018F8161792BA3900920757 /* UIKit.framework in Frameworks */,
+				C018F8181792BA3900920757 /* Foundation.framework in Frameworks */,
+				C018F81A1792BA3900920757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C018F8091792BA3900920757 = {
+			isa = PBXGroup;
+			children = (
+				C018F81B1792BA3900920757 /* iHotelManagementSystem_NC */,
+				C018F8141792BA3900920757 /* Frameworks */,
+				C018F8131792BA3900920757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C018F8131792BA3900920757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C018F8121792BA3900920757 /* iHotelManagementSystem_NC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C018F8141792BA3900920757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C018F8151792BA3900920757 /* UIKit.framework */,
+				C018F8171792BA3900920757 /* Foundation.framework */,
+				C018F8191792BA3900920757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C018F81B1792BA3900920757 /* iHotelManagementSystem_NC */ = {
+			isa = PBXGroup;
+			children = (
+				C01A0131179468C200B11D11 /* iAddHotelViewController.h */,
+				C01A0132179468C200B11D11 /* iAddHotelViewController.m */,
+				C01A0133179468C200B11D11 /* iAddHotelViewController.xib */,
+				C018F83E1792D65100920757 /* HotelDirectory.h */,
+				C018F83F1792D65100920757 /* HotelDirectory.m */,
+				C018F8401792D65100920757 /* iAddress.h */,
+				C018F8411792D65100920757 /* iAddress.m */,
+				C018F8421792D65100920757 /* iCity.h */,
+				C018F8431792D65100920757 /* iCity.m */,
+				C018F8441792D65100920757 /* iHotel.h */,
+				C018F8451792D65100920757 /* iHotel.m */,
+				C018F8461792D65100920757 /* iRoom.h */,
+				C018F8471792D65100920757 /* iRoom.m */,
+				C018F8481792D65100920757 /* NSString+ReadConsole.h */,
+				C018F8491792D65100920757 /* NSString+ReadConsole.m */,
+				C018F8241792BA3900920757 /* iEmpAppDelegate.h */,
+				C018F8251792BA3900920757 /* iEmpAppDelegate.m */,
+				C018F82D1792BA3A00920757 /* iEmpMasterViewController.h */,
+				C018F82E1792BA3A00920757 /* iEmpMasterViewController.m */,
+				C018F8301792BA3A00920757 /* iEmpDetailViewController.h */,
+				C018F8311792BA3A00920757 /* iEmpDetailViewController.m */,
+				C018F8331792BA3A00920757 /* iEmpMasterViewController.xib */,
+				C018F8361792BA3A00920757 /* iEmpDetailViewController.xib */,
+				C018F81C1792BA3900920757 /* Supporting Files */,
+				C024E3401799B7B5006BF901 /* iAddRoomViewController.h */,
+				C024E3411799B7B5006BF901 /* iAddRoomViewController.m */,
+				C024E3421799B7B5006BF901 /* iAddRoomViewController.xib */,
+			);
+			path = iHotelManagementSystem_NC;
+			sourceTree = "<group>";
+		};
+		C018F81C1792BA3900920757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C018F81D1792BA3900920757 /* iHotelManagementSystem_NC-Info.plist */,
+				C018F81E1792BA3900920757 /* InfoPlist.strings */,
+				C018F8211792BA3900920757 /* main.m */,
+				C018F8231792BA3900920757 /* iHotelManagementSystem_NC-Prefix.pch */,
+				C018F8271792BA3900920757 /* Default.png */,
+				C018F8291792BA3900920757 /* Default@2x.png */,
+				C018F82B1792BA3A00920757 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C018F8111792BA3900920757 /* iHotelManagementSystem_NC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C018F83B1792BA3A00920757 /* Build configuration list for PBXNativeTarget "iHotelManagementSystem_NC" */;
+			buildPhases = (
+				C018F80E1792BA3900920757 /* Sources */,
+				C018F80F1792BA3900920757 /* Frameworks */,
+				C018F8101792BA3900920757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHotelManagementSystem_NC;
+			productName = iHotelManagementSystem_NC;
+			productReference = C018F8121792BA3900920757 /* iHotelManagementSystem_NC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C018F80A1792BA3900920757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iEmp;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ashish Sahane";
+			};
+			buildConfigurationList = C018F80D1792BA3900920757 /* Build configuration list for PBXProject "iHotelManagementSystem_NC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C018F8091792BA3900920757;
+			productRefGroup = C018F8131792BA3900920757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C018F8111792BA3900920757 /* iHotelManagementSystem_NC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C018F8101792BA3900920757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018F8201792BA3900920757 /* InfoPlist.strings in Resources */,
+				C018F8281792BA3900920757 /* Default.png in Resources */,
+				C018F82A1792BA3900920757 /* Default@2x.png in Resources */,
+				C018F82C1792BA3A00920757 /* Default-568h@2x.png in Resources */,
+				C018F8351792BA3A00920757 /* iEmpMasterViewController.xib in Resources */,
+				C018F8381792BA3A00920757 /* iEmpDetailViewController.xib in Resources */,
+				C01A0135179468C200B11D11 /* iAddHotelViewController.xib in Resources */,
+				C024E3441799B7B5006BF901 /* iAddRoomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C018F80E1792BA3900920757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C018F8221792BA3900920757 /* main.m in Sources */,
+				C018F8261792BA3900920757 /* iEmpAppDelegate.m in Sources */,
+				C018F82F1792BA3A00920757 /* iEmpMasterViewController.m in Sources */,
+				C018F8321792BA3A00920757 /* iEmpDetailViewController.m in Sources */,
+				C018F84A1792D65100920757 /* HotelDirectory.m in Sources */,
+				C018F84B1792D65100920757 /* iAddress.m in Sources */,
+				C018F84C1792D65100920757 /* iCity.m in Sources */,
+				C018F84D1792D65100920757 /* iHotel.m in Sources */,
+				C018F84E1792D65100920757 /* iRoom.m in Sources */,
+				C018F84F1792D65100920757 /* NSString+ReadConsole.m in Sources */,
+				C01A0134179468C200B11D11 /* iAddHotelViewController.m in Sources */,
+				C024E3431799B7B5006BF901 /* iAddRoomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C018F81E1792BA3900920757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C018F81F1792BA3900920757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C018F8331792BA3A00920757 /* iEmpMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C018F8341792BA3A00920757 /* en */,
+			);
+			name = iEmpMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		C018F8361792BA3A00920757 /* iEmpDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C018F8371792BA3A00920757 /* en */,
+			);
+			name = iEmpDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C018F8391792BA3A00920757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C018F83A1792BA3A00920757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C018F83C1792BA3A00920757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotelManagementSystem_NC/iHotelManagementSystem_NC-Prefix.pch";
+				INFOPLIST_FILE = "iHotelManagementSystem_NC/iHotelManagementSystem_NC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C018F83D1792BA3A00920757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHotelManagementSystem_NC/iHotelManagementSystem_NC-Prefix.pch";
+				INFOPLIST_FILE = "iHotelManagementSystem_NC/iHotelManagementSystem_NC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C018F80D1792BA3900920757 /* Build configuration list for PBXProject "iHotelManagementSystem_NC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C018F8391792BA3A00920757 /* Debug */,
+				C018F83A1792BA3A00920757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C018F83B1792BA3A00920757 /* Build configuration list for PBXNativeTarget "iHotelManagementSystem_NC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C018F83C1792BA3A00920757 /* Debug */,
+				C018F83D1792BA3A00920757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C018F80A1792BA3900920757 /* Project object */;
+}
